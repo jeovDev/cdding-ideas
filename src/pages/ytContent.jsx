@@ -44,7 +44,7 @@ const ytContent = () => {
     //   title : videos.snippet.title,
     //   thumbnail : videos.snippet.thumbnails.high.url,
     //  }))
-     console.log(getVideo)
+    //  console.log(getVideo)
 
 
      const mapped = videoDetails
@@ -54,7 +54,7 @@ const ytContent = () => {
       title : videos.snippet.title,
       thumbnail : videos.snippet.thumbnails.high.url,
      }))
-     console.log(mapped)
+    //  console.log(mapped)
   }
 
   useEffect(()=>{
